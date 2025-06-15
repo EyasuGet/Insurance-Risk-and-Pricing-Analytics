@@ -26,5 +26,25 @@ This project explores historical car insurance claims data for risk and marketin
 - Assess risk by geography, vehicle, and demographics.
 - Set up reproducible, version-controlled analysis.
 
+## Data Version Control (DVC)
+
+This repo uses [DVC](https://dvc.org/) to track datasets and ensure data reproducibility.
+
+### How to use
+
+- To get data:  
+  ```
+  dvc pull
+  ```
+- To add new data:  
+  ```
+  dvc add data/insurance_claims.csv
+  git add data/insurance_claims.csv.dvc
+  git commit -m "Update data"
+  dvc push
+  ```
+- DVC remote: `/absolute/path/to/your/local/storage`
+
 ## Contributors
 - EyasuGet
+
