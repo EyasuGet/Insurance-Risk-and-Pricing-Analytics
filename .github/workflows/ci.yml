@@ -4,7 +4,11 @@ on:
   push:
     branches:
       - main
+      - task-1
+      - task-2
+=======
       - setup-task
+
   pull_request:
     branches:
       - main
