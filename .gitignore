@@ -12,7 +12,8 @@ data/
 
 # DVC cache and output
 *.dvc
-/.dvc
+!.dvc
+.dvc/
 /.dvc/cache
 .dvc/config.local
 

@@ -1,0 +1,4 @@
+[core]
+    remote = localstorage
+['remote "localstorage"']
+    url = /home/eyuleo/Documents/kifya/dvc_storage
