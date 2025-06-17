@@ -5,3 +5,5 @@ seaborn
 scipy
 jupyter
 dvc
+scikit-learn
+xgboost
