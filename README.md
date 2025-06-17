@@ -81,6 +81,22 @@ To determine whether there are statistically significant differences in claim ri
 Focus premium adjustments on **location-based factors (province/postal code)** instead of personal factors like **gender**. This approach ensures a fair, risk-adjusted, and data-driven pricing model.
 
 
+# Task 4: Predictive Modeling
+
+This task involves building machine learning models to predict insurance claim severity (`TotalClaims`) based on historical customer, vehicle, and geographic features.
+
+Models trained:
+- Linear Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+Evaluation metrics used:
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+Model interpretability using SHAP is also included to identify influential features in predicting claim severity.
+
+
 ## Contributors
 - EyasuGet
 
