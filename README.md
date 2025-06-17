@@ -45,6 +45,42 @@ This repo uses [DVC](https://dvc.org/) to track datasets and ensure data reprodu
   ```
 - DVC remote: `/absolute/path/to/your/local/storage`
 
+
+# Task 3: A/B Hypothesis Testing Summary
+
+### Objective:
+To determine whether there are statistically significant differences in claim risk and profit margin across key customer and geographic segments.
+
+---
+
+## Hypotheses & Results
+
+### H₀ 1: No risk difference across Provinces
+- ✅ Rejected
+- 📌 Provinces differ significantly in claim frequency, severity, and margin.
+- 🔍 Gauteng showed notably higher claim risk — consider regional pricing adjustments.
+
+---
+
+### H₀ 2: No risk difference across Zip Codes
+- ✅ Rejected (risk), ❌ Not rejected (margin)
+- 📌 Some postal codes show significantly higher claim frequency and severity.
+- 🔍 Consider zoning strategies to fine-tune premiums.
+
+---
+
+### H₀ 3: No risk difference by Gender
+- ❌ Not rejected (p > 0.05 for all)
+- 📌 No evidence that claim patterns differ between men and women.
+- 🔍 Gender-based pricing is unnecessary and should be avoided.
+
+---
+
+## Business Recommendation
+
+Focus premium adjustments on **location-based factors (province/postal code)** instead of personal factors like **gender**. This approach ensures a fair, risk-adjusted, and data-driven pricing model.
+
+
 ## Contributors
 - EyasuGet
 
